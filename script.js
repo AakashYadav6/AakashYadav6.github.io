@@ -6,6 +6,7 @@ const portfolio = {
   availability: "Open to robotics engineering roles",
   resumeUrl: "#",
   heroPhoto: "./images/profile.jpg",
+  contactRecipient: "aakashyadav5013@gmail.com",
   emails: ["aakashyadav5013@gmail.com"],
   socials: [
     { label: "GitHub", href: "https://github.com/AakashYadav6" },
@@ -383,9 +384,6 @@ portfolio.stack.forEach((item) => stackList.appendChild(createStackCard(item)));
 const awardList = byId("award-list");
 portfolio.awards.forEach((item) => awardList.appendChild(createAwardCard(item)));
 
-const emailLink = byId("email-link");
-emailLink.href = "mailto:" + (portfolio.emails[0] || "");
-
 const contactEmails = byId("contact-emails");
 portfolio.emails.forEach((email) => {
   const a = document.createElement("a");
@@ -464,6 +462,51 @@ if (navToggle && navPanel) {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       closeNav();
+    }
+  });
+}
+
+
+const contactForm = byId("contact-form");
+const contactSubmit = byId("contact-submit");
+const contactStatus = byId("contact-form-status");
+
+if (contactForm && contactSubmit && contactStatus) {
+  contactForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(contactForm);
+    formData.append("_subject", "New portfolio message from " + (formData.get("name") || "Website Visitor"));
+    formData.append("_captcha", "false");
+    formData.append("_template", "table");
+
+    contactSubmit.disabled = true;
+    contactSubmit.textContent = "Sending...";
+    contactStatus.textContent = "";
+    contactStatus.className = "contact-form-status";
+
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/" + encodeURIComponent(portfolio.contactRecipient), {
+        method: "POST",
+        headers: {
+          Accept: "application/json"
+        },
+        body: formData
+      });
+
+      if (!response.ok) {
+        throw new Error("Request failed");
+      }
+
+      contactForm.reset();
+      contactStatus.textContent = "Thank you. Your message has been sent.";
+      contactStatus.className = "contact-form-status is-success";
+    } catch (error) {
+      contactStatus.textContent = "Sorry, something went wrong. Please try again in a moment.";
+      contactStatus.className = "contact-form-status is-error";
+    } finally {
+      contactSubmit.disabled = false;
+      contactSubmit.textContent = "Send Message";
     }
   });
 }
