@@ -5,7 +5,7 @@ const portfolio = {
   location: "Mumbai, India",
   availability: "Open to robotics engineering roles",
   resumeUrl: "#",
-  heroPhoto: "",
+  heroPhoto: "./images/profile.jpg",
   emails: ["aakashyadav5013@gmail.com"],
   socials: [
     { label: "GitHub", href: "https://github.com/AakashYadav6" },
