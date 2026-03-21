@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash Yadav | Portfolio</title>
+    <meta
+      name="description"
+      content="Aakash Yadav portfolio featuring robotics engineering, autonomy, ROS, aerial systems, and applied research."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-shell nav-shell-collapsed nav-open">
+        <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+          <div class="nav-panel-group nav-panel-group-left">
+            <a class="nav-panel-link" href="#intro">Intro</a>
+            <a class="nav-panel-link" href="#about">About</a>
+            <a class="nav-panel-link" href="#education">Education</a>
+            <a class="nav-panel-link" href="#experience">Work</a>
+            <a class="nav-panel-link" href="#research">Research</a>
+          </div>
+
+          <button
+            class="nav-plus-button"
+            id="nav-toggle"
+            type="button"
+            aria-label="Close section navigation"
+            aria-expanded="true"
+            aria-controls="nav-panel"
+          >
+            <span class="nav-plus-horizontal"></span>
+            <span class="nav-plus-vertical"></span>
+          </button>
+
+          <div class="nav-panel-group nav-panel-group-right">
+            <a class="nav-panel-link" href="#projects">Projects</a>
+            <a class="nav-panel-link" href="#stack">Stack</a>
+            <a class="nav-panel-link" href="#awards">Awards</a>
+            <a class="nav-panel-link" href="#publications">Publications</a>
+            <a class="nav-panel-link" href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-root">
+      <section class="hero-section" id="intro">
+        <div class="hero-shell">
+          <div class="hero-top">
+            <div class="hero-person">
+              <div class="hero-photo" id="hero-photo">
+                <div class="hero-photo-fallback" id="hero-initials"></div>
+              </div>
+              <div class="hero-copy">
+                <div class="hero-name-block">
+                  <h1 id="hero-name"></h1>
+                  <h2 id="hero-tagline"></h2>
+                  <div class="hero-meta-row">
+                    <div class="meta-pill">
+                      <span class="meta-icon">◎</span>
+                      <span id="hero-location"></span>
+                    </div>
+                    <div class="meta-pill">
+                      <span class="status-dot"></span>
+                      <span id="hero-availability"></span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hero-actions">
+                  <a class="primary-link-button" id="resume-link" href="#" target="_blank" rel="noreferrer">
+                    <span>Download CV</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-links-grid">
+              <div class="info-rail">
+                <div class="info-chip wide-chip">
+                  <span class="chip-icon">⧉</span>
+                  <span id="hero-email-primary"></span>
+                </div>
+                <div class="info-chip wide-chip alt-email" id="hero-email-secondary-wrap">
+                  <span class="chip-icon">⧉</span>
+                  <span id="hero-email-secondary"></span>
+                </div>
+              </div>
+
+              <div class="social-rail" id="social-links"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="about">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>About me</h2>
+          </div>
+          <div class="section-body rich-text" id="about-copy"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="education">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Education <span class="section-emoji">🎓</span></h2>
+          </div>
+          <div class="section-body timeline-list" id="education-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="experience">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Work Experience <span class="section-emoji">🏢</span></h2>
+          </div>
+          <div class="section-body timeline-list" id="experience-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="research">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Research <span class="section-emoji">🔬</span></h2>
+          </div>
+          <div class="section-body timeline-list" id="research-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="projects">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Projects <span class="section-emoji">⚙️</span></h2>
+          </div>
+          <div class="section-body feature-list" id="project-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="stack">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Stack <span class="section-emoji">🧰</span></h2>
+          </div>
+          <div class="section-body stack-list" id="stack-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="awards">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Awards <span class="section-emoji">🏆</span></h2>
+          </div>
+          <div class="section-body compact-list" id="award-list"></div>
+        </div>
+      </section>
+
+      <section class="content-section" id="publications">
+        <div class="content-shell two-column-layout">
+          <div class="section-heading">
+            <h2>Publications <span class="section-emoji">📚</span></h2>
+          </div>
+          <div class="section-body feature-list" id="publication-list"></div>
+        </div>
+      </section>
+
+      <section class="footer-section" id="contact">
+        <div class="footer-shell">
+          <div class="footer-main">
+            <div class="footer-title-block">
+              <h2>Let's talk</h2>
+            </div>
+
+            <div class="footer-content-grid">
+              <div class="footer-info-column">
+                <div class="footer-info-group">
+                  <h3>Time for me:</h3>
+                  <p id="local-time"></p>
+                </div>
+
+                <div class="footer-info-group">
+                  <h3>Email:</h3>
+                  <div class="footer-chip-list" id="contact-emails"></div>
+                </div>
+
+                <div class="footer-info-group">
+                  <h3>Socials:</h3>
+                  <div class="footer-social-list" id="footer-socials"></div>
+                </div>
+              </div>
+
+              <div class="footer-form-column">
+                <h3>Reach out:</h3>
+                <form class="contact-form">
+                  <label>
+                    <input type="text" placeholder="Your name" />
+                  </label>
+                  <label>
+                    <input type="email" placeholder="Your Email address" />
+                  </label>
+                  <label>
+                    <textarea placeholder="Message"></textarea>
+                  </label>
+                  <a class="submit-link" id="email-link" href="#">Send Message</a>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-credit">
+              <span>Designed in</span>
+              <a href="https://framer.com" target="_blank" rel="noreferrer">Framer style</a>
+              <span>for</span>
+              <span id="footer-name"></span>
+            </div>
+            <div class="footer-copy">© Copyright 2026</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
