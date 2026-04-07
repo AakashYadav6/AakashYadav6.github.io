@@ -325,6 +325,23 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+      &.cv-social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 2.2rem;
+        line-height: 1;
+        text-decoration: none;
+      }
+
+      .cv-social-text {
+        color: var(--global-text-color);
+        font-size: 1.7rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        transition: color 0.2s ease-in-out;
+      }
+
       img {
         width: 1.7rem;
         height: 1.7rem;
@@ -349,6 +366,10 @@ ul.task-list input[type="checkbox"] {
       }
 
       &:hover {
+        .cv-social-text {
+          color: var(--global-theme-color);
+        }
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -418,6 +439,23 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+      &.cv-social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 5rem;
+        line-height: 1;
+        text-decoration: none;
+      }
+
+      .cv-social-text {
+        color: var(--global-text-color);
+        font-size: 3.6rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        transition: color 0.2s ease-in-out;
+      }
+
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -442,6 +480,10 @@ ul.task-list input[type="checkbox"] {
 
       &:hover {
         text-decoration: none;
+
+        .cv-social-text {
+          color: var(--global-theme-color);
+        }
 
         i::before {
           color: var(--global-theme-color);
