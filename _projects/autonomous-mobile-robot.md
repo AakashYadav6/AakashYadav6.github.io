@@ -4,6 +4,7 @@ title: Autonomous Mobile Robot for Navigation and Object Tracking
 description: ROS 2 mobile robot with mapping, localization, tracking, and hardware integration.
 importance: 1
 category: robotics
+img: assets/img/projects/amr-thumb.jpg
 ---
 
 ### Autonomous Mobile Robot for Navigation and Object Tracking
