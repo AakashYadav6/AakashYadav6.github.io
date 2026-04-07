@@ -36,4 +36,4 @@ Previously, I worked at <a href='https://algobotix.com/'>Algobotix Pvt Ltd</a> o
 
 I have also worked at the MRL Lab, <a href='https://sites.google.com/view/gcdsl-iisc/home'>IISc Bangalore</a>, developing and optimizing Autonomous Drones using ROS 2, NVIDIA Jetson platforms, and multi-modal sensing for outdoor navigation, testing of custom hardwares and self-driving research.
 
-During my time at Bureau of Indian Standards I worked on quality-control experimentation and OpenCV-based test workflows.
+During my time at <a href='https://www.bis.gov.in/branches/western-region-office/mumbai-branch-office-i/'>Bureau of Indian Standards</a> I worked on quality-control experimentation and OpenCV-based test workflows.
