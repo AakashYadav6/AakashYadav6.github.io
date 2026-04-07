@@ -1502,15 +1502,15 @@ mjx-container[jax="CHTML"][display="true"] {
 .news td,
 .news td p,
 .news td span {
-  color: var(--global-text-color);
+  color: var(--global-text-color) !important;
 }
 
 .news a,
 .news .news-title {
-  color: var(--global-theme-color);
+  color: var(--global-theme-color) !important;
 }
 
 .news a:hover,
 .news .news-title:hover {
-  color: var(--global-hover-color);
+  color: var(--global-hover-color) !important;
 }
