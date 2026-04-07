@@ -4,6 +4,7 @@ title: Line Follower Robot
 description: Arduino-based autonomous robot with sensing, motor control, and Bluetooth app integration.
 importance: 2
 category: robotics
+img: assets/img/projects/line-follower.gif
 ---
 
 ### Line Follower Robot
