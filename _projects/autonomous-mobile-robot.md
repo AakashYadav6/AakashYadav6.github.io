@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ASTROBOT-Autonomous Mobile Robot for Navigation and Object Tracking
+title: ASTROBOT-Autonomous Mobile Robot
 description: ROS 2 mobile robot with mapping, localization, tracking, and hardware integration.
 importance: 1
 category: robotics
@@ -11,7 +11,7 @@ img: assets/img/projects/amr-thumb.jpg
 
 <a href="https://github.com/AakashYadav6/astrobot?tab=readme-ov-file" target="_blank" style="display:inline-block; margin-bottom: 1rem;">GitHub Repository</a>
 
-- Developed a **differential drive robot** with **Raspberry Pi 4**, **Arduino Nano**, and DC motors.
+- Developed a **differential drive robot** with **Raspberry Pi 4**, **Arduino UNO**, and DC motors.
 - Used **PID control**, **RP Lidar**, and a **depth camera** for mapping, localization, and object tracking.
 - Simulated the system in **Gazebo** and **RViz** for path planning and obstacle avoidance.
 - Current focus: **hardware integration** and real-world deployment.
