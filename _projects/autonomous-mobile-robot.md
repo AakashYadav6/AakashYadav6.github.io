@@ -16,3 +16,12 @@ category: robotics
 - Current focus: **hardware integration** and real-world deployment.
 
 **Technologies:** ROS 2, Python, C++, OpenCV, Gazebo
+
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/amr-1.jpg" title="Autonomous mobile robot hardware setup" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/amr-2.jpg" title="Autonomous mobile robot with controller" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
