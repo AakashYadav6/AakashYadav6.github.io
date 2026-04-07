@@ -1514,3 +1514,36 @@ mjx-container[jax="CHTML"][display="true"] {
 .news .news-title:hover {
   color: var(--global-hover-color) !important;
 }
+
+.project-badge-group {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 0.35rem;
+  overflow: hidden;
+}
+
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.3rem 0.75rem;
+  color: #fff !important;
+  font-size: 1rem;
+  line-height: 1;
+  text-decoration: none !important;
+}
+
+.project-badge:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+  filter: brightness(1.05);
+}
+
+.project-badge-dark {
+  background: #5b5b5b;
+}
+
+.project-badge-blue {
+  background: #2f80c9;
+}

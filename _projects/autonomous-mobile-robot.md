@@ -7,11 +7,14 @@ category: robotics
 img: assets/img/projects/amr-thumb.jpg
 ---
 
-<p>
-  <a href="https://github.com/AakashYadav6/astrobot?tab=readme-ov-file" target="_blank" class="btn btn-sm z-depth-0" role="button">
-    <i class="fa-brands fa-github"></i> GitHub Repository
+<div class="project-badge-group">
+  <a href="https://github.com/AakashYadav6/astrobot?tab=readme-ov-file" target="_blank" class="project-badge project-badge-dark" role="button">
+    <i class="fa-brands fa-github"></i> GitHub
   </a>
-</p>
+  <a href="https://github.com/AakashYadav6/astrobot?tab=readme-ov-file" target="_blank" class="project-badge project-badge-blue" role="button">
+    Repository
+  </a>
+</div>
 
 - Developed a **differential drive robot** with **Raspberry Pi 4**, **Arduino UNO**, and DC motors.
 - Used **PID control**, **RP Lidar**, and a **depth camera** for mapping, localization, and object tracking.
