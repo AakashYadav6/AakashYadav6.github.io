@@ -9,7 +9,11 @@ img: assets/img/projects/line-follower.gif
 
 ### Line Follower Robot
 
-<a href="https://drive.google.com/file/d/1yrOC5wMiOzGOAYRQIXqggoIKRhrOBGAN/view?usp=sharing" target="_blank" style="display:inline-block; margin-bottom: 1rem;">Project Document</a>
+<p>
+  <a href="https://drive.google.com/file/d/1yrOC5wMiOzGOAYRQIXqggoIKRhrOBGAN/view?usp=sharing" target="_blank" class="btn btn-sm z-depth-0" role="button">
+    <i class="fa-solid fa-file-lines"></i> Project Document
+  </a>
+</p>
 
 - Designed and developed an **Arduino Uno-based autonomous robot** using **IR sensors** for line detection and object avoidance.
 - Integrated an **L298N motor driver** to regulate BO motor speed using a **7.4V (2S) Li-Po battery**.
