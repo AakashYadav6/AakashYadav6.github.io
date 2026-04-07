@@ -18,18 +18,23 @@ selected_papers: false
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  limit: 1
 
 latest_posts:
   enabled: false
 ---
 
-Hi there 👋
+Hey! 👋
 
-I am **Aakash Yadav**, a robotics-focused mechanical engineering graduate working across **autonomy, embedded systems, computer vision, simulation, and product development**.
+I am a robotics engineer focused on **autonomous systems**, **robot perception**, and **deployable robotic software**.
 
-My recent experience spans **multi-drone experimentation**, **ROS workflows**, **mobile robotics**, **quality-control research**, and **autonomous navigation systems**. At **Algobotix Pvt Ltd**, I worked on slung-load experiments, ROS 1 to ROS 2 migration, structural design, and field testing for multi-drone payload systems.
+My work spans **ROS 2**, **mobile robotics**, **multi-drone systems**, **computer vision**, and **simulation-driven development**, with an emphasis on building practical systems that can move cleanly from prototyping to real deployment.
 
-I have also built autonomous robotics systems through the **e-Yantra Robotics Competition**, where I worked on warehouse robotics with **Nav2**, **SLAM Toolbox**, **AMCL**, **MoveIt**, and **OpenCV**. Alongside that, I completed ROS mentorship work and hands-on applied research at the **Bureau of Indian Standards**.
+Previously, I worked at **Algobotix Pvt Ltd** on slung-load experiments for multi-drone payload systems, including **ROS 1 to ROS 2 migration**, structural design, and field testing for embedded and aerial robotics workflows.
 
-My strongest interests are in **robotics software**, **perception**, **planning and navigation**, **robot system integration**, and **research-driven engineering systems** that move cleanly from concept to deployment.
+I have also worked on autonomous warehouse robotics through the **e-Yantra Robotics Competition**, where I built systems using **Nav2**, **SLAM Toolbox**, **AMCL**, **MoveIt**, and **OpenCV** for mapping, localization, navigation, and manipulation.
+
+Alongside that, I completed hands-on robotics mentorship and research-oriented work through **Rigbetellabs ROS Mentorship** and the **Bureau of Indian Standards**, where I worked on quality-control experimentation and OpenCV-based test workflows.
+
+My strongest interests are in **robotics software**, **perception**, **planning and navigation**, **robot system integration**, and **research-driven engineering systems** that are efficient, practical, and easy to deploy in the real world.

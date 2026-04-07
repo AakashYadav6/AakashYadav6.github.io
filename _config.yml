@@ -7,12 +7,10 @@ first_name: Aakash
 middle_name: R.
 last_name: Yadav
 contact_note: >
-  I check email regularly. Feel free to reach out for robotics, autonomy, and research collaborations.
+  I check email regularly, so yeah email me!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Robotics engineer focused on autonomy, ROS 2, multi-robot systems, embedded platforms, and applied research.
-# footer_text: >
-#   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-#   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: robotics, ros2, autonomy, mechanical engineering, portfolio, academic website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
