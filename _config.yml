@@ -138,6 +138,8 @@ collections:
     output: true
   projects:
     output: true
+  research_items:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
